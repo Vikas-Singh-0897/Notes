@@ -1,0 +1,57 @@
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Numbers ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+0. Reference -> https://www.w3schools.com/js/js_number_reference.asp
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ Number Static Methods ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+1. Number(val) -> Converts a given value
+-----------------------------------------------------------------------------
+2. Number.isFinite(val) -> Checks if a value is a finite number.
+-----------------------------------------------------------------------------
+3. Number.isInteger(val) -> Checks if a value is a whole number.
+-----------------------------------------------------------------------------
+4. Number.parseInt(val) -> Parses string and returns integer.
+-----------------------------------------------------------------------------
+5. Number.parseFloat(val) -> Parses string and returns floating-point number.
+-----------------------------------------------------------------------------
+6. Number.isSafeInteger(val) -> Checks if val is JavaScript's "safe" range.
+-----------------------------------------------------------------------------
+7. Number.isNaN(val) -> Reliable, non-coercing way to check if val is NaN.
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~ Number Instance Methods ~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+1. num.toFixed(val) -> Formats number to specific decimal places.
+-----------------------------------------------------------------------------
+2. num.toPrecision(val) -> Formats number to specific significant digits.
+-----------------------------------------------------------------------------
+3. num.valueOf() -> Returns the primitive value of a Number object.
+-----------------------------------------------------------------------------
+4. num.toString(base) -> Converts a number to its string representation.
+-----------------------------------------------------------------------------
+5. num.toLocaleString(type) -> Formats number to string based on local lang.
+-----------------------------------------------------------------------------
+6. num.toExponential(decVal) -> Formats a number to a string using exponential.
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Number Properties ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+1. Number.MAX_SAFE_INTEGER -> The largest integer represented.
+-----------------------------------------------------------------------------
+2. Number.MAX_VALUE -> The largest possible floating-point number.
+-----------------------------------------------------------------------------
+3. Number.EPSILON -> **Special**float**
+-----------------------------------------------------------------------------
+4. Number.NaN -> A static property representing the "NAN" value itself.
+-----------------------------------------------------------------------------
+5. Number.POSITIVE_INFINITY -> Representing the value of positive infinity.
+-----------------------------------------------------------------------------
+6. Number.NEGATIVE_INFINITY -> Representing the value of negative infinity.
+-----------------------------------------------------------------------------
+7. Number.MIN_SAFE_INTEGER -> The smallest integer represented.
+-----------------------------------------------------------------------------
+8. Number.MIN_VALUE -> The smallest positive number closest to zero.
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Other Numeric Types ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+1. BigInt -> A numeric type for integers of arbitrary size.
+-----------------------------------------------------------------------------
