@@ -1,0 +1,55 @@
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Strings ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+0. Reference -> https://www.w3schools.com/js/js_string_reference.asp
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ String Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+1. string.lenght -> Returns the number of characters in the string.
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ String Method ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+1. string.trim() -> Removes whitespace from both ends of a string.
+-----------------------------------------------------------------------------
+1a string.trimStart() / string.trimEnd() -> Removes whitespace
+-----------------------------------------------------------------------------
+2. string.toLowerCase() -> Converts a string to lowercase letters.
+-----------------------------------------------------------------------------
+3. string.toUpperCase() -> Converts a string to uppercase letters.
+-----------------------------------------------------------------------------
+4. string.slice(start, end) -> Extracts section and returns new string.
+-----------------------------------------------------------------------------
+5. string.substring(start, end) -> Extracts section and returns new string.
+-----------------------------------------------------------------------------
+6. string.charAt(idx) -> Returns the character at a specific index.
+-----------------------------------------------------------------------------
+7. string.at(idx) -> Returns an indexed character from a string.
+-----------------------------------------------------------------------------
+8. string.replace(searchVal, newValue) -> Replace first match in string.
+-----------------------------------------------------------------------------
+8a string.replaceAll(searchVal, newValue) -> Replace all matches in string.
+-----------------------------------------------------------------------------
+9. string.concat(str2, ...) -> Joins two or more strings.
+-----------------------------------------------------------------------------
+10. string.split(separator) -> Splits a string into an array of substrings.
+-----------------------------------------------------------------------------
+11. string.includes(searchValue) -> Checks if string contain given value.
+-----------------------------------------------------------------------------
+12. string.startsWith(srchVal) -> Checks if string start with specified val.
+-----------------------------------------------------------------------------
+13. string.isWellFormed() -> Checks if a string is well formed or not.
+-----------------------------------------------------------------------------
+14. string.search(val) -> Checks and returns the position of the match.
+-----------------------------------------------------------------------------
+15. string.endsWith(val) -> Checks if a string ends with the specified val.
+-----------------------------------------------------------------------------
+16. string.indexOf(val) -> Returns 1st index of occurrence of val in string.
+-----------------------------------------------------------------------------
+17. string.lastIndexOf(val) -> Returns last index val in string.
+-----------------------------------------------------------------------------
+18. string.padStart(targetLength, padString) -> Pads until targetLength.
+-----------------------------------------------------------------------------
+19. string.padEnd(targetLength, padString) -> Pads until targetLength.
+-----------------------------------------------------------------------------
+20. string.repeat(count) -> Returns new string of specified number of copies.
+-----------------------------------------------------------------------------
