@@ -1,0 +1,19 @@
+-----------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------------------------
+# Reusable block of code enable better code modularity, and efficiency
+-----------------------------------------------------------------------------
+# Functions are Execute when they are "called" or "invoked"
+-----------------------------------------------------------------------------
+# this -> NormalFunction ( Dynamic ) && ArrowFunction ( Lexical )
+-----------------------------------------------------------------------------
+# Arguments Object -> Not for Arrow -> Array like Object -> `arguments`
+-----------------------------------------------------------------------------
+# call(thisArg, arg1, arg2) -> Setting this context && Function Borrowing
+-----------------------------------------------------------------------------
+# apply(thisArg, [arg1, arg2]) -> Same as call + Passing Array of Arguments
+-----------------------------------------------------------------------------
+# bind(thisArg, arg1, arg2) -> Permanent this context returns function
+-----------------------------------------------------------------------------
+# Closures --> function with function as return value -> private varibale
+-----------------------------------------------------------------------------
